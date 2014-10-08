@@ -1,6 +1,7 @@
 ﻿Class MainWindow 
 
-    Private Sub inciar(sender As Object, e As RoutedEventArgs)
-        My.Windows.Facturas.Show()
+    Private Sub cancelwindow_ClickButton(sender As Object, e As RoutedEventArgs)
+        Me.Close()
     End Sub
+
 End Class

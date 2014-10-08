@@ -3,6 +3,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Content="Iniciar" Height="20" Width="50" Margin="228,115,229,175" Click="inciar" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Información Adicional de la Compra" HorizontalAlignment="Center" FontSize="25" TextDecorations="Underline"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+           
+        </StackPanel>
     </Grid>
 </Window>
